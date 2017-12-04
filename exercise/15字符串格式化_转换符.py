@@ -1,0 +1,10 @@
+a=input("请输入一个整数(输入Q结束程序)")
+while(a!='Q'):
+    if(a.isnumeric()):
+        b=int(a)
+        print("十进制->十六进制:%d->0x%x"%(b,b))
+        print("十进制->八进制:%d->0o%o"%(b,b))
+        print("十进制->二进制:%d->%s"%(b,bin(b)))
+    else:
+        print("输入非整数")
+    a=input("请输入一个整数(输入Q结束程序)")
